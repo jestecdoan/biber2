@@ -80,7 +80,7 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('**Aleyküm selam**');
+    msg.reply('** :regional_indicator_a:  :regional_indicator_s: **');
   }
 });
 
@@ -112,18 +112,20 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'siktirgit') {
     msg.reply('**Argo Kelime Kullanma**');
   }
-if (msg.content === 'selamın aleyküm') {
+if (msg.content === 'selamün aleyküm') {
    	msg.reply('ve aleyküm selam');
   }
 
-  if (msg.content === 'bye bye') {
-   	msg.reply('su gibi git su gibi gel');
+  if (msg.content === 'gunaydın') {
+   	msg.reply('sana da günaydın');
   }
 
   if (msg.content === 'günaydın') {
    	msg.reply('sana da günaydın');
   }
-
+  if (msg.content === 'günaydın') {
+   	msg.reply('sana da günaydın');
+  }
   if (msg.content === 'herkese günaydın') {
    	msg.reply('yepyeni bir güne merhaba :)');
   }
@@ -132,7 +134,7 @@ if (msg.content === 'selamın aleyküm') {
    	msg.reply('sana da iyi geceler');
   }
 
-  if (msg.content === 'sa') {
+  if (msg.content === 'piç') {
    	msg.reply('**Sunucuda Argo Kelime Kullanma**');
   }
 
@@ -140,7 +142,7 @@ if (msg.content === 'selamın aleyküm') {
    	msg.reply('sana da iyi akşamlar');
   }
 
-  if (msg.content === 'selamın aleyküm') {
+  if (msg.content === 'selamün aleyküm') {
    	msg.reply('ve aleyküm selam');
   }
 
