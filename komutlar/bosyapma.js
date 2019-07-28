@@ -5,7 +5,7 @@ exports.run = (client, message) => {
  message.channel.send({embed: {
 		  file:"https://media1.tenor.com/images/b7a40bb42ec167a50bd54e625d072d0b/tenor.gif",
           color: 0xD97634,		 
-           description: "**:stuck_out_tongue_winking_eye:   Hey Aslanım Boş Yapma !**"
+           description: "**:stuck_out_tongue_winking_eye:   Hey Sen Boş Yapma !**"
 		   }});
 };
 
