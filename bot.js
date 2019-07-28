@@ -123,8 +123,8 @@ if (msg.content === 'selamün aleyküm') {
   if (msg.content === 'günaydın') {
    	msg.reply('sana da günaydın');
   }
-  if (msg.content === 'günaydın') {
-   	msg.reply('sana da günaydın');
+  if (msg.content === 'doan') {
+   	msg.reply('doan seni çağırıyorlar :joy: ');
   }
   if (msg.content === 'herkese günaydın') {
    	msg.reply('yepyeni bir güne merhaba :)');
