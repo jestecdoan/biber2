@@ -7,7 +7,7 @@ require("moment-duration-format");
 
 exports.run = (client, msg) => {
   const duration = moment.duration(client.uptime).format(" D [gün], H [saat], m [dakika], s [saniye]");
-  msg.channel.sendCode("asciidoc", `⇝ Kişisel komutlar | Not:Komutlar vt! ile baslar
+  msg.channel.sendCode("asciidoc", `⇝ Kişisel komutlar | Not:Komutlar r! ile baslar
         • Eglence Komutlari		
 • Atatürk	:: Atatürk ile ilgili mesaj verir.		
 • değişiklikler   :: Sunucuda Yapilan değişiklikleri gosterir.
